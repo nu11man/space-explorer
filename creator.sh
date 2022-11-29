@@ -1,0 +1,1 @@
+/Users/juliocesarecheverri/Developer/pocs/react-native-essentials/creator.sh
