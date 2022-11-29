@@ -5,6 +5,7 @@
     "subHeader": "API de la NASA",
     "title": "Título",
     "description": "Descripción",
+    "copyright": "Autor(es)",
     "date": "Fecha",
     "mainButtonLabel": "Siguiente Imagen"
   }

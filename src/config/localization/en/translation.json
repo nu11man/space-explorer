@@ -5,6 +5,7 @@
     "subHeader": "NASA API",
     "title": "Title",
     "description": "Description",
+    "copyright": "Copyright",
     "date": "Date",
     "mainButtonLabel": "Next Picture"
   }

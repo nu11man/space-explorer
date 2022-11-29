@@ -51,7 +51,7 @@ const Home = () => {
                   <Text style={styles.sectionContent}>{apodData.date}</Text>
                   {apodData.copyright && (
                     <View>
-                      <Text style={styles.sectionTitle}>Copyright</Text>
+                      <Text style={styles.sectionTitle}>{t('home.copyright')}</Text>
                       <Text style={styles.sectionContent}>{apodData.copyright}</Text>
                     </View>
                   )}
