@@ -1,7 +1,8 @@
 import { BottomTabScreenProps } from '@react-navigation/bottom-tabs';
 import { CompositeScreenProps, NavigatorScreenParams } from '@react-navigation/native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { Screens } from './constants';
+
+import { Screens } from '@constants/navigation';
 
 export type TabStackParamList = {
   [Screens.HOME]: undefined;
