@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   },
   buttonTab: {
     flex: 1,
-    padding: 10,
+    padding: 14,
     alignItems: 'center',
     justifyContent: 'center'
   },
@@ -23,11 +23,16 @@ const styles = StyleSheet.create({
   }
 });
 
-export const getTabButtonStyle = ({
-  pressed
-}: PressableStateCallbackType): StyleProp<ViewStyle> => {
+export const getTabButtonStyle = (
+  pressed: boolean,
+  safeAreaInset: number
+): StyleProp<ViewStyle> => {
   const touchStyle = pressed ? { backgroundColor: gray } : {};
-  return [styles.buttonTab, touchStyle];
+  return [
+    styles.buttonTab,
+    touchStyle,
+    { paddingBottom: Math.max(styles.buttonTab.padding, safeAreaInset) }
+  ];
 };
 
 export default styles;
