@@ -8,6 +8,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import store, { persistor } from '@redux/store';
 import AppNavigator from '@app/navigation/MainNavigator';
 import { SetupApi } from '@config/appSetup';
+import { darkGray } from '@constants/colors';
 
 import './src/config';
 
@@ -20,7 +21,7 @@ const App = () => {
       <PersistGate loading={null} persistor={persistor}>
         <NavigationContainer>
           <SafeAreaProvider>
-            <StatusBar translucent barStyle="light-content" />
+            <StatusBar translucent backgroundColor={darkGray} barStyle="light-content" />
             <AppNavigator />
           </SafeAreaProvider>
         </NavigationContainer>

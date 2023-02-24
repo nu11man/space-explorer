@@ -1,11 +1,11 @@
 import { PressableStateCallbackType, StyleProp, StyleSheet, ViewStyle } from 'react-native';
 
-import { gray, lightBackground } from '@constants/colors';
+import { darkGray, gray, lightBackground } from '@constants/colors';
 import fonts from '@config/fonts';
 
 const styles = StyleSheet.create({
   safeArea: {
-    backgroundColor: '#3C3E43'
+    backgroundColor: darkGray
   },
   container: {
     flexDirection: 'row',
