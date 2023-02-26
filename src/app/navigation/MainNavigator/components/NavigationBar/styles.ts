@@ -1,13 +1,13 @@
-import { PressableStateCallbackType, StyleProp, StyleSheet, ViewStyle } from 'react-native';
-import { gray } from '@constants/colors';
+import { StyleProp, StyleSheet, ViewStyle } from 'react-native';
+import { darkGray, gray } from '@constants/colors';
 import fonts from '@config/fonts';
 
 const styles = StyleSheet.create({
   safeArea: {
-    backgroundColor: '#3C3E43'
+    backgroundColor: darkGray
   },
   container: {
-    backgroundColor: '#3C3E43',
+    backgroundColor: darkGray,
     flexDirection: 'row',
     justifyContent: 'space-between'
   },
