@@ -1,8 +1,10 @@
 package com.julioecheverri.spaceexplorer;
 
+import org.devio.rn.splashscreen.SplashScreen;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
+import android.app.Activity;
 import android.os.Bundle;
 
 public class MainActivity extends ReactActivity {
@@ -33,6 +35,8 @@ public class MainActivity extends ReactActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+      SplashScreen.show((Activity) getContext(), R.id.lottie); // here
+      SplashScreen.setAnimationFinished(true); // If you want the animation dialog to be forced to close when hide is called, use this code
       super.onCreate(null);
     }
 
