@@ -20,6 +20,8 @@
 		87375E3318804269AA4399CF /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06D1A9DEE618400CBA807844 /* Nunito-Bold.ttf */; };
 		A40BFE1E63244ED9B51E650A /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EA6DEED093E451287488C1C /* Nunito-Medium.ttf */; };
 		B1DD08CF1C2E498F98BAE6D0 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC89157846934BDE82AF0C16 /* Nunito-ExtraBold.ttf */; };
+		EB13A42729ACDF83002D3F09 /* rocket.json in Resources */ = {isa = PBXBuildFile; fileRef = EB13A42629ACDF83002D3F09 /* rocket.json */; };
+		EBF39C1029AB1D8200BA6669 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF39C0F29AB1D8200BA6669 /* Dynamic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 		00E356EE1AD99517003FC87E /* SpaceExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SpaceExplorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceExplorerTests.m; sourceTree = "<group>"; };
-		06D1A9DEE618400CBA807844 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Bold.ttf"; path = "../assets/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		06D1A9DEE618400CBA807844 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Bold.ttf"; path = "../assets/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* SpaceExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SpaceExplorer/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = SpaceExplorer/AppDelegate.mm; sourceTree = "<group>"; };
@@ -44,18 +46,21 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SpaceExplorer/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SpaceExplorer/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-SpaceExplorer-SpaceExplorerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpaceExplorer-SpaceExplorerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3527222D80BC4CAE97A10ACE /* Nunito-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Regular.ttf"; path = "../assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		3527222D80BC4CAE97A10ACE /* Nunito-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Regular.ttf"; path = "../assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-SpaceExplorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceExplorer.debug.xcconfig"; path = "Target Support Files/Pods-SpaceExplorer/Pods-SpaceExplorer.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-SpaceExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceExplorer.release.xcconfig"; path = "Target Support Files/Pods-SpaceExplorer/Pods-SpaceExplorer.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-SpaceExplorer-SpaceExplorerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceExplorer-SpaceExplorerTests.debug.xcconfig"; path = "Target Support Files/Pods-SpaceExplorer-SpaceExplorerTests/Pods-SpaceExplorer-SpaceExplorerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-SpaceExplorer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpaceExplorer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EA6DEED093E451287488C1C /* Nunito-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Medium.ttf"; path = "../assets/fonts/Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		5EA6DEED093E451287488C1C /* Nunito-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Medium.ttf"; path = "../assets/fonts/Nunito-Medium.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SpaceExplorer/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-SpaceExplorer-SpaceExplorerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceExplorer-SpaceExplorerTests.release.xcconfig"; path = "Target Support Files/Pods-SpaceExplorer-SpaceExplorerTests/Pods-SpaceExplorer-SpaceExplorerTests.release.xcconfig"; sourceTree = "<group>"; };
-		CC89157846934BDE82AF0C16 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraBold.ttf"; path = "../assets/fonts/Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CC89157846934BDE82AF0C16 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraBold.ttf"; path = "../assets/fonts/Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EB13A42629ACDF83002D3F09 /* rocket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rocket.json; path = ../../../../../../Downloads/rocket.json; sourceTree = "<group>"; };
+		EBF39C0E29AB1D8200BA6669 /* SpaceExplorer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpaceExplorer-Bridging-Header.h"; sourceTree = "<group>"; };
+		EBF39C0F29AB1D8200BA6669 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F43F0AD187634C2D8193B7C9 /* Nunito-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Light.ttf"; path = "../assets/fonts/Nunito-Light.ttf"; sourceTree = "<group>"; };
-		F5A93DD7FFD141A6AC1C4832 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-SemiBold.ttf"; path = "../assets/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		F43F0AD187634C2D8193B7C9 /* Nunito-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Light.ttf"; path = "../assets/fonts/Nunito-Light.ttf"; sourceTree = "<group>"; };
+		F5A93DD7FFD141A6AC1C4832 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-SemiBold.ttf"; path = "../assets/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +103,15 @@
 		13B07FAE1A68108700A75B9A /* SpaceExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				EB13A42629ACDF83002D3F09 /* rocket.json */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				EBF39C0F29AB1D8200BA6669 /* Dynamic.swift */,
+				EBF39C0E29AB1D8200BA6669 /* SpaceExplorer-Bridging-Header.h */,
 			);
 			name = SpaceExplorer;
 			sourceTree = "<group>";
@@ -119,7 +127,6 @@
 				F5A93DD7FFD141A6AC1C4832 /* Nunito-SemiBold.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -234,7 +241,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -274,6 +281,7 @@
 				87375E3318804269AA4399CF /* Nunito-Bold.ttf in Resources */,
 				B1DD08CF1C2E498F98BAE6D0 /* Nunito-ExtraBold.ttf in Resources */,
 				2E6378BEBAAD4AA0B84308F9 /* Nunito-Light.ttf in Resources */,
+				EB13A42729ACDF83002D3F09 /* rocket.json in Resources */,
 				A40BFE1E63244ED9B51E650A /* Nunito-Medium.ttf in Resources */,
 				70A709D920CE4711A94D6487 /* Nunito-Regular.ttf in Resources */,
 				1D32AE5E79214672972907B4 /* Nunito-SemiBold.ttf in Resources */,
@@ -445,6 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF39C1029AB1D8200BA6669 /* Dynamic.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -465,6 +474,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-SpaceExplorer-SpaceExplorerTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -492,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-SpaceExplorer-SpaceExplorerTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = SpaceExplorerTests/Info.plist;
@@ -532,6 +543,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SpaceExplorer;
+				SWIFT_OBJC_BRIDGING_HEADER = "SpaceExplorer-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -557,6 +569,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SpaceExplorer;
+				SWIFT_OBJC_BRIDGING_HEADER = "SpaceExplorer-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

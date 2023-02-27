@@ -84,6 +84,10 @@ PODS:
   - libwebp/mux (1.2.3):
     - libwebp/demux
   - libwebp/webp (1.2.3)
+  - lottie-ios (3.4.4)
+  - lottie-react-native (5.1.5):
+    - lottie-ios (~> 3.4.0)
+    - React-Core
   - MMKV (1.2.14):
     - MMKVCore (~> 1.2.14)
   - MMKVCore (1.2.14)
@@ -318,6 +322,8 @@ PODS:
     - react-native-config/App (= 1.4.11)
   - react-native-config/App (1.4.11):
     - React-Core
+  - react-native-lottie-splash-screen (1.1.1):
+    - React
   - react-native-mmkv (2.5.1):
     - MMKV (>= 1.2.13)
     - React-Core
@@ -473,6 +479,7 @@ DEPENDENCIES:
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes/hermes-engine.podspec`)
   - libevent (~> 2.1.12)
+  - lottie-react-native (from `../node_modules/lottie-react-native`)
   - OpenSSL-Universal (= 1.1.1100)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
@@ -492,6 +499,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-config (from `../node_modules/react-native-config`)
+  - react-native-lottie-splash-screen (from `../node_modules/react-native-lottie-splash-screen`)
   - react-native-mmkv (from `../node_modules/react-native-mmkv`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -529,6 +537,7 @@ SPEC REPOS:
     - fmt
     - libevent
     - libwebp
+    - lottie-ios
     - MMKV
     - MMKVCore
     - OpenSSL-Universal
@@ -550,6 +559,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   hermes-engine:
     :podspec: "../node_modules/react-native/sdks/hermes/hermes-engine.podspec"
+  lottie-react-native:
+    :path: "../node_modules/lottie-react-native"
   RCT-Folly:
     :podspec: "../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTRequired:
@@ -582,6 +593,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   react-native-config:
     :path: "../node_modules/react-native-config"
+  react-native-lottie-splash-screen:
+    :path: "../node_modules/react-native-lottie-splash-screen"
   react-native-mmkv:
     :path: "../node_modules/react-native-mmkv"
   react-native-safe-area-context:
@@ -645,6 +658,8 @@ SPEC CHECKSUMS:
   hermes-engine: 2af7b7a59128f250adfd86f15aa1d5a2ecd39995
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   libwebp: 60305b2e989864154bd9be3d772730f08fc6a59c
+  lottie-ios: 8f97d3271e155c2d688875c29cd3c74908aef5f8
+  lottie-react-native: 3e722c63015fdb9c27638b0a77969fc412067c18
   MMKV: 9c4663aa7ca255d478ff10f2f5cb7d17c1651ccd
   MMKVCore: 89f5c8a66bba2dcd551779dea4d412eeec8ff5bb
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
@@ -664,6 +679,7 @@ SPEC CHECKSUMS:
   React-jsinspector: 60769e5a0a6d4b32294a2456077f59d0266f9a8b
   React-logger: 1623c216abaa88974afce404dc8f479406bbc3a0
   react-native-config: bcafda5b4c51491ee1b0e1d0c4e3905bc7b56c1b
+  react-native-lottie-splash-screen: 015423265bac5f46016dff2e31c97b9590808856
   react-native-mmkv: 69b9c003f10afdd01addf7c6ee784ce42ee2eff3
   react-native-safe-area-context: 99b24a0c5acd0d5dcac2b1a7f18c49ea317be99a
   React-perflogger: 8c79399b0500a30ee8152d0f9f11beae7fc36595
